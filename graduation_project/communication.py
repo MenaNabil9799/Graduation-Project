@@ -1,0 +1,80 @@
+import socket
+#from vision import angles
+host = "192.168.0.1"
+port = 2000
+d1="18.6"
+d2="35.0"
+d3="38.5"
+d4="15.7"
+d5="44.1"
+d6="47.9"
+d7="33.1"
+d8="23.2"
+d9="28.3"
+d10="24.6"
+d11="27.2"
+d12="32.5"
+d13="18.3"
+d14="37.5"
+d15="51.9"
+d16="22.7"
+d17="27.4"
+d18="43.0"
+d19="37.9"
+d20="18.3"
+d21="35.6"
+d22="29.8"
+d23="21.0"
+d24="38.8"
+d25="21.7"
+d26="39.1"
+d27="62.3"
+d28="25.7"
+d29="27.6"
+d30="53.8"
+d31="32.9"
+d32="19.9"
+d33="48.4"
+d34="42.4"
+d35="16.0"
+d36="46.4"
+if _name=="main_":
+    with socket.socket(socket.AF_INET,socket.SOCK_STREAM) as s:
+        s.connect((host,port))
+        s.send(d1.encode('UTF_8'))
+        s.send(d2.encode('UTF_8'))
+        s.send(d3.encode('UTF_8'))
+        s.send(d4.encode('UTF_8'))
+        s.send(d5.encode('UTF_8'))
+        s.send(d6.encode('UTF_8'))
+        s.send(d7.encode('UTF_8'))
+        s.send(d8.encode('UTF_8'))
+        s.send(d9.encode('UTF_8'))
+        s.send(d10.encode('UTF_8'))
+        s.send(d11.encode('UTF_8'))
+        s.send(d12.encode('UTF_8'))
+        s.send(d13.encode('UTF_8'))
+        s.send(d14.encode('UTF_8'))
+        s.send(d15.encode('UTF_8'))
+        s.send(d16.encode('UTF_8'))
+        s.send(d17.encode('UTF_8'))
+        s.send(d18.encode('UTF_8'))
+        s.send(d19.encode('UTF_8'))
+        s.send(d20.encode('UTF_8'))
+        s.send(d21.encode('UTF_8'))
+        s.send(d22.encode('UTF_8'))
+        s.send(d23.encode('UTF_8'))
+        s.send(d24.encode('UTF_8'))
+        s.send(d25.encode('UTF_8'))
+        s.send(d26.encode('UTF_8'))
+        s.send(d27.encode('UTF_8'))
+        s.send(d28.encode('UTF_8'))
+        s.send(d29.encode('UTF_8'))
+        s.send(d30.encode('UTF_8'))
+        s.send(d31.encode('UTF_8'))
+        s.send(d32.encode('UTF_8'))
+        s.send(d33.encode('UTF_8'))
+        s.send(d34.encode('UTF_8'))
+        s.send(d35.encode('UTF_8'))
+        s.send(d36.encode('UTF_8'))
+        s.close()
